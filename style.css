@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.905);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.wrapper .header-image {
+  background-image: url("https://placehold.jp/1000x600.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.wrapper .header-image h2 {
+  position: absolute;
+  margin: 0;
+  left: 50px;
+  bottom: 80px;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  opacity: 0;
+}
+
+.concept {
+  padding-bottom: 150px;
+  border-bottom: 2px solid white;
+}
+.concept .main-concept {
+  position: relative;
+  height: 900px;
+  width: 100%;
+}
+.concept .main-concept h2 {
+  padding-top: 80px;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  padding-bottom: 30px;
+}
+.concept .main-concept p {
+  position: absolute;
+  font-size: 20px;
+  top: 350px;
+  left: 60px;
+}
+.concept .main-concept p:nth-child(2) {
+  top: 480px;
+}
+.concept .main-concept p:nth-child(3) {
+  top: 650px;
+}
+.concept .main-concept .concept-image {
+  position: absolute;
+  top: 250px;
+  right: 60px;
+}
+
+.concept2 .concept-menu {
+  height: 900px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 150px;
+  border-bottom: 2px solid white;
+}
+.concept2 .concept-menu .menu1 {
+  position: absolute;
+  background-color: rgb(27, 24, 24);
+  height: 650px;
+  width: 650px;
+  top: 220px;
+  right: 90px;
+  border: 1px solid white;
+  z-index: 2;
+}
+.concept2 .concept-menu .menu2 {
+  position: absolute;
+  background-color: rgb(27, 24, 24);
+  height: 650px;
+  width: 650px;
+  border: 1px solid white;
+  top: 170px;
+  left: 90px;
+  z-index: 2;
+}
+.concept2 .concept-menu h2 {
+  display: grid;
+  place-items: center;
+  padding-top: 80px;
+}
+.concept2 .concept-menu h3 {
+  display: grid;
+  place-items: center;
+  padding-top: 80px;
+}
+.concept2 .concept-menu p {
+  font-weight: bold;
+  transform: scale(0.89, 1.2);
+  padding-top: 60px;
+  line-height: 60px;
+}
+.concept2 .concept-menu .image1 {
+  right: 700px;
+  position: absolute;
+  z-index: 1;
+  top: 170px;
+}
+.concept2 .concept-menu .image2 {
+  position: absolute;
+  z-index: 1;
+  top: 220px;
+  left: 700px;
+}
+.concept2 .concept-menu .btn {
+  position: absolute;
+  bottom: 80px;
+  left: 45%;
+  padding-top: 10px;
+}
+.concept2 .concept-menu .btn a {
+  display: inline-block;
+  height: 40px;
+  width: 130px;
+  background-color: rgb(229, 32, 117);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+footer {
+  font-size: 12px;
+  height: 480px;
+  width: 100%;
+}
+footer .wrapper {
+  display: flex;
+}
+footer .wrapper .footer-info {
+  position: relative;
+}
+footer .wrapper .footer-info li {
+  padding-bottom: 20px;
+  transform: translate(760px, 50px);
+}
+footer .wrapper .footer-info li a {
+  color: white;
+}
+footer .wrapper .footer-info li span {
+  margin-left: 76px;
+}
+footer .wrapper .footer-list {
+  position: relative;
+}
+footer .wrapper .footer-list li {
+  padding-bottom: 10px;
+  transform: translate(820px, 50px);
+}
+footer .wrapper .footer-list li a {
+  text-decoration: none;
+  color: white;
+}
+footer .sns-icon {
+  font-size: 20px;
+  position: relative;
+}
+footer .sns-icon .tk {
+  position: absolute;
+  top: -1px;
+  left: 33px;
+}/*# sourceMappingURL=style.css.map */
